@@ -14,13 +14,11 @@ Monte Carlo is a universal tool: when uncertainty and complexity make closed-for
 
 📂 **Project Structure**
 ```text
-monte_carlo_project/
-│── part1_pi_estimation.ipynb    # Notebook for π estimation
-│── part2_option_pricing.ipynb   # Notebook for option pricing
-│── part3_portfolio_var.ipynb    # Notebook for VaR
-│── MonteCarlo_Full.ipynb        # Combined notebook (all parts together)
-│── artifacts/                   # Generated plots
-│── README.md                    # This file
+monte_carlo_simulation/
+│── monte_carlo_pi.ipynb      # Notebook for π estimation
+│── option_pricing.ipynb      # Notebook for option pricing
+│── Prtfolio_VaR.ipynb        # Notebook for VaR
+│── README.md                 # Project documentation
 ```
 
 ---
@@ -70,7 +68,7 @@ monte_carlo_project/
 - Python 3.8+
 - NumPy
 - Matplotlib
-- Pandas (for Part 3)
+- Pandas (for VaR)
 - Jupyter Notebook
 
 Install dependencies:
@@ -86,8 +84,7 @@ pip install numpy matplotlib pandas jupyter
    ```bash
    jupyter notebook
    ```
-3. Run each notebook (`part1_pi_estimation.ipynb`, etc.).
-4. Generated plots will be saved in the `artifacts/` folder.
+3. Run each notebook (`monte_carlo_pi.ipynb`, etc.).
 
 ---
 
